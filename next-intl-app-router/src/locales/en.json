@@ -4,6 +4,7 @@
     "locale": "{locale, select, km {Khmer} en {English} other {Unknown}}",
     "title": "Hello i18n!",
     "about": "Go to the about page",
-    "menu": "Menu"
+    "menu": "Menu",
+    "switchLocale": "Switch to {locale, select, km {Khmer} en {English} other {Unknown}}"
   }
 }

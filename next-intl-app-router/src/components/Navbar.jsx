@@ -4,12 +4,12 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useLocale, useTranslations } from "next-intl";
 import SwitchSelectLanguage from "./SwitchSelectLanguage";
 import { routing } from "@/i18n/routing";
+import SwitchLanguage from "./SwitchLanguage";
 
 export default function ButtonAppBar() {
   const t = useTranslations("HomePage");
@@ -31,13 +31,14 @@ export default function ButtonAppBar() {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               {t("menu")}
             </Typography>
-            <SwitchSelectLanguage defaultValue={locale} label={t("label")}>
+            {/* <SwitchSelectLanguage defaultValue={locale} label={t("label")}>
               {routing.locales.map((cur) => (
                 <option key={cur} value={cur} style={{ marginTop: "4px" }}>
                   {t("locale", { locale: cur })}
                 </option>
               ))}
-            </SwitchSelectLanguage>
+            </SwitchSelectLanguage> */}
+            <SwitchLanguage />
           </Toolbar>
         </AppBar>
       </Box>

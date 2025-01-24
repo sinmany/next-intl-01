@@ -4,6 +4,7 @@
     "locale": "{locale, select, km {Khmer} en {English} other {Unknown}}",
     "title": "សួរស្តី i18n",
     "about": "ទៅអំពីរយើងទំព័រ",
-    "menu": "ម៉ឺនុយ"
+    "menu": "ម៉ឺនុយ",
+    "switchLocale": "Switch to {locale, select, km {Khmer} en {English} other {Unknown}}"
   }
 }
