@@ -1,0 +1,9 @@
+{
+  "HomePage": {
+    "label": "Change language",
+    "locale": "{locale, select, km {Khmer} en {English} other {Unknown}}",
+    "title": "សួរស្តី i18n",
+    "about": "ទៅអំពីរយើងទំព័រ",
+    "menu": "ម៉ឺនុយ"
+  }
+}
